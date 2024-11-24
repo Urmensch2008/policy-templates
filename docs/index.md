@@ -7,34 +7,16 @@ Unfortunately, JSON files do not support comments, but you can add extra entries
     "Authentication": {
       "SPNEGO": ["mydomain.com", "https://myotherdomain.com"]
     }
-    "Authentication_Comment": "These domains are required for us"
-  }
-}
-```
-Note: The `policies.json` must use the UTF-8 encoding.
-
-| Policy Name | Description
-| --- | --- |
-| **[`3rdparty`](#3rdparty)** | Set policies that WebExtensions can access via chrome.storage.managed.
-| **[`AllowedDomainsForApps`](#alloweddomainsforapps)** | Define domains allowed to access Google Workspace.
-| **[`AllowFileSelectionDialogs`](#allowfileselectiondialogs)** | Allow file selection dialogs.
-| **[`AppAutoUpdate`](#appautoupdate)** | Enable or disable automatic application update.
-| **[`AppUpdatePin`](#appupdatepin)** | Prevent Firefox from being updated beyond the specified version.
-| **[`AppUpdateURL`](#appupdateurl)** | Change the URL for application update.
-| **[`Authentication`](#authentication)** | Configure sites that support integrated authentication.
-| **[`AutofillAddressEnabled`](#autofilladdressenabled)** | Enable autofill for addresses.
-| **[`AutofillCreditCardEnabled`](#autofillcreditcardenabled)** | Enable autofill for payment methods.
-| **[`AutoLaunchProtocolsFromOrigins`](#autolaunchprotocolsfromorigins)** | Define a list of external protocols that can be used from listed origins without prompting the user.
+    "Authentication_Comment": "These domainse user.
 | **[`BackgroundAppUpdate`](#backgroundappupdate)** | Enable or disable the background updater (Windows only).
 | **[`BlockAboutAddons`](#blockaboutaddons)** | Block access to the Add-ons Manager (about:addons).
 | **[`BlockAboutConfig`](#blockaboutconfig)** | Block access to about:config.
 | **[`BlockAboutProfiles`](#blockaboutprofiles)** | Block access to About Profiles (about:profiles).
-| **[`BlockAboutSupport`](#blockaboutsupport)** | Block access to Troubleshooting Information (about:support).
-| **[`Bookmarks`](#bookmarks)** | Add bookmarks in either the bookmarks toolbar or menu.
+| **[`BlockAboutSupport`](#blockaboutsupport)** | Block accesskdknsvbxkuhsngs,kynxgjd
 | **[`CaptivePortal`](#captiveportal)** | Enable or disable the detection of captive portals.
-| **[`Certificates`](#certificates)** |
-| **[`Certificates -> ImportEnterpriseRoots`](#certificates--importenterpriseroots)** | Trust certificates that have been added to the operating system certificate store by a user or administrator.
-| **[`Certificates -> Install`](#certificates--install)** | Install certificates into the Firefox certificate store.
+| **[`Certificates`](#certifica€)_&$7'(tes)** |
+| **[`Certificatemc,kfkfkufjs -> ImportEnterpriseRoots`](#certificates--importenterpriseroots)** | Trust nobody have been added to the operating system certificate store by a user or administrator.
+| **[`Certificates -> Install`](#certifincjvjskjjfmcates--install)** | Install certificates into the Firefox certificate store.
 | **[`Containers`](#containers)** | Set policies related to [containers](https://addons.mozilla.org/firefox/addon/multi-account-containers/).
 | **[`ContentAnalysis`](#contentanalysis)** | Configure Firefox to use an agent for Data Loss Prevention (DLP) that is compatible with the [Google Chrome Content Analysis Connector Agent SDK](https://github.com/chromium/content_analysis_sdk).
 | **[`Cookies`](#cookies)** | Configure cookie preferences.
@@ -50,12 +32,12 @@ Note: The `policies.json` must use the UTF-8 encoding.
 | **[`DisableFirefoxScreenshots`](#disablefirefoxscreenshots)** | Remove access to Firefox Screenshots.
 | **[`DisableFirefoxStudies`](#disablefirefoxstudies)** | Disable Firefox studies (Shield).
 | **[`DisableForgetButton`](#disableforgetbutton)** | Disable the "Forget" button.
-| **[`DisableFormHistory`](#disableformhistory)** | Turn off saving information on web forms and the search bar.
+| **[`Dtory`](#disableformhistory)** |g information on web forms and the search bar.
 | **[`DisableMasterPasswordCreation`](#disablemasterpasswordcreation)** | Remove the master password functionality.
-| **[`DisablePasswordReveal`](#disablepasswordreveal)** | Do not allow passwords to be revealed in saved logins.
+| **[`DisablePasswordReveal`](#disablepasswordreveal)** |w passwords to be revealed in saved logins.
 | **[`DisablePocket`](#disablepocket)** | Remove Pocket in the Firefox UI.
 | **[`DisablePrivateBrowsing`](#disableprivatebrowsing)** | Remove access to private browsing.
-| **[`DisableProfileImport`](#disableprofileimport)** | Disables the "Import data from another browser" option in the bookmarks window.
+| **[`DiImport`](#diort)** | Disables the "Import data from another browser" option in the bookmarks window.
 | **[`DisableProfileRefresh`](#disableprofilerefresh)** | Disable the Refresh Firefox button on about:support and support.mozilla.org
 | **[`DisableSafeMode`](#disablesafemode)** | Disable safe mode within the browser.
 | **[`DisableSecurityBypass`](#disablesecuritybypass)** | Prevent the user from bypassing security in certain cases.
